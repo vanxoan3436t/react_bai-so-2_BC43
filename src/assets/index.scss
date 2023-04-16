@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    position: relative;
+    background-image: url(../../public/img/background.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#root {
+    div {
+
+        div {
+            .header {
+                background-color: rgba(8, 8, 8, 0.932);
+                h1 {
+                    color: white;
+                  
+                }
+            }
+
+            .changeImg {
+                .row {
+                    .col-6 {
+                        z-index: 1;
+                        position: relative;
+
+                        img {
+                            margin-left: 25%;
+                            width: 50%;
+                            z-index: 1;
+                        }
+
+                        .text {
+                            position: absolute;
+                            bottom: 0;
+                            left: 26%;
+                            width: 48.1%;
+                            height: 30%;
+                            background-color: #fdaf7e63;
+
+                            h2 {
+                                color: rgba(60, 60, 236, 0.76);
+                            }
+
+                            p {
+                                color: white;
+                                font-weight: 700;
+                            }
+                        }
+
+                        .state {
+                            position: absolute;
+                            width: 25%;
+                            top: 26%;
+                            left: 12.8%;
+                        }
+                    }
+                }
+
+                margin-bottom: 70px;
+            }
+
+            .glasses {
+                background-color: #312f2f;
+                margin-bottom: 20px;
+
+                .row {
+                    .col-2 {
+                        z-index: 1;
+                        cursor: pointer;
+                        border: 1px black solid;
+                        padding: 16px;
+
+                        img {
+                            width: 100%;
+
+                        }
+
+                    }
+
+                }
+
+            }
+        }
+    }
+
+}
+
+.overlay {
+    background: rgba(93, 95, 102, 0.5);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
